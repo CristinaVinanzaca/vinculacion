@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/cabeza_mujer.ogg-458f36c25dfcb71956616a9f2196d3aa.oggstr"
+
+[deps]
+
+source_file="res://sound/mujer/cabeza_mujer.ogg"
+dest_files=[ "res://.import/cabeza_mujer.ogg-458f36c25dfcb71956616a9f2196d3aa.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

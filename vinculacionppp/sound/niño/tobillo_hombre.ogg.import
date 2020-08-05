@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/tobillo_hombre.ogg-32c6dbb93e5e5c2239ef64852500c4d0.oggstr"
+
+[deps]
+
+source_file="res://sound/niño/tobillo_hombre.ogg"
+dest_files=[ "res://.import/tobillo_hombre.ogg-32c6dbb93e5e5c2239ef64852500c4d0.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

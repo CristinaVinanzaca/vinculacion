@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/oreja_mujer.ogg-401617da303991b1b90ecf685ae03af0.oggstr"
+
+[deps]
+
+source_file="res://sound/mujer/oreja_mujer.ogg"
+dest_files=[ "res://.import/oreja_mujer.ogg-401617da303991b1b90ecf685ae03af0.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

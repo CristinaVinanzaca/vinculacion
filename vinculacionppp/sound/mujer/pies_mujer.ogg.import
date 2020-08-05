@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/pies_mujer.ogg-710cc71c9078812b9880ef4c42593640.oggstr"
+
+[deps]
+
+source_file="res://sound/mujer/pies_mujer.ogg"
+dest_files=[ "res://.import/pies_mujer.ogg-710cc71c9078812b9880ef4c42593640.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

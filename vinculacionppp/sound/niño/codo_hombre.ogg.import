@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/codo_hombre.ogg-954bda4d10d40932954cb166ccf53237.oggstr"
+
+[deps]
+
+source_file="res://sound/niño/codo_hombre.ogg"
+dest_files=[ "res://.import/codo_hombre.ogg-954bda4d10d40932954cb166ccf53237.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

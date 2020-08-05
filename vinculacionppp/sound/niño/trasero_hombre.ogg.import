@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/trasero_hombre.ogg-9112beb58718ab4415a26e7e4e64fd9a.oggstr"
+
+[deps]
+
+source_file="res://sound/niño/trasero_hombre.ogg"
+dest_files=[ "res://.import/trasero_hombre.ogg-9112beb58718ab4415a26e7e4e64fd9a.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

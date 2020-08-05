@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/brazo_hombre.ogg-b43dc449a83392a5457f8df61184749c.oggstr"
+
+[deps]
+
+source_file="res://sound/niño/brazo_hombre.ogg"
+dest_files=[ "res://.import/brazo_hombre.ogg-b43dc449a83392a5457f8df61184749c.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

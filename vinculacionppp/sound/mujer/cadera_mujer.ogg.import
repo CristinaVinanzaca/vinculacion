@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/cadera_mujer.ogg-4335dd48a496786424704134707587eb.oggstr"
+
+[deps]
+
+source_file="res://sound/mujer/cadera_mujer.ogg"
+dest_files=[ "res://.import/cadera_mujer.ogg-4335dd48a496786424704134707587eb.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

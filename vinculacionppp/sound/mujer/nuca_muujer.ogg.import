@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/nuca_muujer.ogg-10535660aa67a28ad5e111489e4aa467.oggstr"
+
+[deps]
+
+source_file="res://sound/mujer/nuca_muujer.ogg"
+dest_files=[ "res://.import/nuca_muujer.ogg-10535660aa67a28ad5e111489e4aa467.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

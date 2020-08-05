@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/boca_hombre.ogg-8dc9c31ad6e74a6dabee450966c4d146.oggstr"
+
+[deps]
+
+source_file="res://sound/niño/boca_hombre.ogg"
+dest_files=[ "res://.import/boca_hombre.ogg-8dc9c31ad6e74a6dabee450966c4d146.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

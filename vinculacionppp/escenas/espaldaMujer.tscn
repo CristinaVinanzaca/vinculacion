@@ -1,0 +1,25 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Node2D.gd" type="Script" id=1]
+[ext_resource path="res://imagen/7--1672362-Fire transition.jpg" type="Texture" id=2]
+[ext_resource path="res://imagen/fotos de vinculacion/fotode niña atras.png" type="Texture" id=3]
+[ext_resource path="res://imagen/fotos de vinculacion/volver.jpg" type="Texture" id=4]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource( 1 )
+
+[node name="fondo" type="Sprite" parent="."]
+position = Vector2( 233.507, 304.158 )
+scale = Vector2( 0.237858, 0.556491 )
+texture = ExtResource( 2 )
+
+[node name="mujerEspalda" type="Sprite" parent="."]
+position = Vector2( 222.73, 335.292 )
+scale = Vector2( 1, 0.932298 )
+texture = ExtResource( 3 )
+
+[node name="volver" type="Button" parent="."]
+margin_right = 12.0
+margin_bottom = 20.0
+icon = ExtResource( 4 )
+flat = true

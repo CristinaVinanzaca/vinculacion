@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/talon_hombre.ogg-cbdba5fc8ec078928e7e383f52172f69.oggstr"
+
+[deps]
+
+source_file="res://sound/niño/talon_hombre.ogg"
+dest_files=[ "res://.import/talon_hombre.ogg-cbdba5fc8ec078928e7e383f52172f69.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

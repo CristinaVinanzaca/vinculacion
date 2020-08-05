@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/nariz_mujer.ogg-3b4ee89521571f7c78c057051c9d9887.oggstr"
+
+[deps]
+
+source_file="res://sound/mujer/nariz_mujer.ogg"
+dest_files=[ "res://.import/nariz_mujer.ogg-3b4ee89521571f7c78c057051c9d9887.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

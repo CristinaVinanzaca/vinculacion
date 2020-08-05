@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/nariz_hombre.ogg-4f4f3bc2802131addf00ba6ec82a50e8.oggstr"
+
+[deps]
+
+source_file="res://sound/niño/nariz_hombre.ogg"
+dest_files=[ "res://.import/nariz_hombre.ogg-4f4f3bc2802131addf00ba6ec82a50e8.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/pene_hombre.ogg-d9eac30be7ebb46983cd104100d68a3f.oggstr"
+
+[deps]
+
+source_file="res://sound/niño/pene_hombre.ogg"
+dest_files=[ "res://.import/pene_hombre.ogg-d9eac30be7ebb46983cd104100d68a3f.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

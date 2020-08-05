@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/espalda_mujer.ogg-1a818bdaebc169ab6aedb8421465a844.oggstr"
+
+[deps]
+
+source_file="res://sound/mujer/espalda_mujer.ogg"
+dest_files=[ "res://.import/espalda_mujer.ogg-1a818bdaebc169ab6aedb8421465a844.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

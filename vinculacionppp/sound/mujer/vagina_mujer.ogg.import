@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/vagina_mujer.ogg-99b38d2470a278d344fab92376739d3f.oggstr"
+
+[deps]
+
+source_file="res://sound/mujer/vagina_mujer.ogg"
+dest_files=[ "res://.import/vagina_mujer.ogg-99b38d2470a278d344fab92376739d3f.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

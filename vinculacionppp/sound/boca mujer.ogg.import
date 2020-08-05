@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/boca mujer.ogg-45730d95d82346b74c9c29145ea6665d.oggstr"
+
+[deps]
+
+source_file="res://sound/boca mujer.ogg"
+dest_files=[ "res://.import/boca mujer.ogg-45730d95d82346b74c9c29145ea6665d.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

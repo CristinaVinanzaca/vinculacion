@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/pantorrilla_mujer.ogg-2c2df795cdedec708b1b4bbfe8635640.oggstr"
+
+[deps]
+
+source_file="res://sound/mujer/pantorrilla_mujer.ogg"
+dest_files=[ "res://.import/pantorrilla_mujer.ogg-2c2df795cdedec708b1b4bbfe8635640.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

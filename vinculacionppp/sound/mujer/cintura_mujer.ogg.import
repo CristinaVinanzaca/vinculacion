@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/cintura_mujer.ogg-52d23f4e67d1889cdebf9cd82e59759d.oggstr"
+
+[deps]
+
+source_file="res://sound/mujer/cintura_mujer.ogg"
+dest_files=[ "res://.import/cintura_mujer.ogg-52d23f4e67d1889cdebf9cd82e59759d.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

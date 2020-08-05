@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/hombros_hombre.ogg-b26a7acac90c105b61000cd127fbf62e.oggstr"
+
+[deps]
+
+source_file="res://sound/niño/hombros_hombre.ogg"
+dest_files=[ "res://.import/hombros_hombre.ogg-b26a7acac90c105b61000cd127fbf62e.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

@@ -1,0 +1,43 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://escenas/main.gd" type="Script" id=1]
+[ext_resource path="res://imagen/7--1672362-Fire transition.jpg" type="Texture" id=2]
+[ext_resource path="res://imagen/fotos de vinculacion/fotode niña frente.png" type="Texture" id=3]
+[ext_resource path="res://imagen/fotos de vinculacion/foto de niño frente.png" type="Texture" id=4]
+[ext_resource path="res://imagen/fotos de vinculacion/volver.jpg" type="Texture" id=5]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource( 1 )
+
+[node name="inicio" type="Sprite" parent="."]
+position = Vector2( 238.026, 361.349 )
+scale = Vector2( 0.244192, 0.661474 )
+texture = ExtResource( 2 )
+
+[node name="Mujer" type="Sprite" parent="."]
+position = Vector2( 138.168, 366.71 )
+scale = Vector2( 1, 0.884207 )
+texture = ExtResource( 3 )
+
+[node name="Hombre" type="Sprite" parent="."]
+position = Vector2( 362.367, 362.184 )
+scale = Vector2( 1.11092, 0.946388 )
+texture = ExtResource( 4 )
+
+[node name="mujer" type="TextureButton" parent="."]
+margin_left = 9.23407
+margin_top = 115.429
+margin_right = 261.234
+margin_bottom = 618.429
+
+[node name="hombre" type="TextureButton" parent="."]
+margin_left = 259.0
+margin_top = 106.0
+margin_right = 478.0
+margin_bottom = 612.0
+
+[node name="volver" type="Button" parent="."]
+margin_right = 12.0
+margin_bottom = 20.0
+icon = ExtResource( 5 )
+flat = true

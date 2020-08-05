@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/nuca_hombre.ogg-ffb5017b6e4a40932f2a638254c02cd8.oggstr"
+
+[deps]
+
+source_file="res://sound/niño/nuca_hombre.ogg"
+dest_files=[ "res://.import/nuca_hombre.ogg-ffb5017b6e4a40932f2a638254c02cd8.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

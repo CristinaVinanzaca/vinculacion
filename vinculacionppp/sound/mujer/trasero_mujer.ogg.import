@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/trasero_mujer.ogg-028a473b03a7fdf2459f1b9a75d5174c.oggstr"
+
+[deps]
+
+source_file="res://sound/mujer/trasero_mujer.ogg"
+dest_files=[ "res://.import/trasero_mujer.ogg-028a473b03a7fdf2459f1b9a75d5174c.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

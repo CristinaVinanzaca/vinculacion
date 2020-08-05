@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/ombligo_mujer.ogg-8005ee1d6fda2bbb60742c43c016fa11.oggstr"
+
+[deps]
+
+source_file="res://sound/mujer/ombligo_mujer.ogg"
+dest_files=[ "res://.import/ombligo_mujer.ogg-8005ee1d6fda2bbb60742c43c016fa11.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

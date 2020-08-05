@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/rodilla_hombre.ogg-178bb7315ac86f072e4e06aac820cafa.oggstr"
+
+[deps]
+
+source_file="res://sound/niño/rodilla_hombre.ogg"
+dest_files=[ "res://.import/rodilla_hombre.ogg-178bb7315ac86f072e4e06aac820cafa.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0
