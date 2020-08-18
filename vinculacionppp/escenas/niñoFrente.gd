@@ -21,9 +21,10 @@ onready var talon=get_node("talon")
 onready var pies=get_node("pies")
 onready var brazo1=get_node("brazo1")
 onready var brazo2=get_node("brazo2")
+onready var voltear=get_node("Voltear")
 
 func _ready():
-	#voltear.connect("pressed",self,"voltear")
+	voltear.connect("pressed",self,"voltear")
 	cabeza.connect("pressed",self,"_cabeza")
 	ojos.connect("pressed",self,"_ojos")
 	nariz.connect("pressed",self,"_nariz")
@@ -65,7 +66,7 @@ func _oreja():
 func _cuello():
 	_cargarAudio("cuello_hombre")
 func _hombros():
-	_cargarAudio("hombros_hombres")
+	_cargarAudio("hombros_hombre")
 func _pecho():
 	_cargarAudio("pecho_hombre")
 func _mano():
@@ -88,6 +89,6 @@ func _pies():
 	_cargarAudio("pies_hombre")
 func _brazos():
 	_cargarAudio("brazo_hombre")
-#func voltear():	
-	#get_tree().change_scene("res://escenas/espaldaMujer.tscn")
+func voltear():	
+	get_tree().change_scene("res://escenas/niñoEspalda.tscn")
 

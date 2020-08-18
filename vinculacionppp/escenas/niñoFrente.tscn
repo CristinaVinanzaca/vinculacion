@@ -144,3 +144,10 @@ margin_left = 303.022
 margin_top = 243.0
 margin_right = 343.022
 margin_bottom = 315.0
+
+[node name="Voltear" type="Button" parent="."]
+margin_left = 157.0
+margin_top = 593.0
+margin_right = 334.0
+margin_bottom = 628.0
+text = "VOLTEAR"

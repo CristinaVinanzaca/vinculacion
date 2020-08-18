@@ -1,0 +1,88 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://escenas/niñoEspalda.gd" type="Script" id=1]
+[ext_resource path="res://imagen/1233706_6b7ea.jpg" type="Texture" id=2]
+[ext_resource path="res://imagen/cuerposXD/foto de niño atras.png" type="Texture" id=3]
+
+[node name="Node2D" type="Node2D"]
+position = Vector2( -3.84244, 3.84244 )
+script = ExtResource( 1 )
+
+[node name="fondo" type="Sprite" parent="."]
+position = Vector2( 243.994, 357.346 )
+scale = Vector2( 1.22094, 1.81652 )
+texture = ExtResource( 2 )
+
+[node name="niñoEspalda" type="Sprite" parent="."]
+position = Vector2( 260.709, 328.72 )
+scale = Vector2( 1.10331, 0.986869 )
+texture = ExtResource( 3 )
+
+[node name="voltear" type="Button" parent="."]
+margin_left = 162.0
+margin_top = 592.0
+margin_right = 353.0
+margin_bottom = 637.0
+text = "VOLTEAR"
+
+[node name="audios" type="AudioStreamPlayer" parent="."]
+
+[node name="cabeza" type="TextureButton" parent="."]
+margin_left = 190.126
+margin_top = 67.5245
+margin_right = 321.126
+margin_bottom = 195.525
+
+[node name="nuca" type="TextureButton" parent="."]
+margin_left = 218.951
+margin_top = 154.825
+margin_right = 300.951
+margin_bottom = 194.825
+
+[node name="hombros" type="TextureButton" parent="."]
+margin_left = 188.0
+margin_top = 208.0
+margin_right = 320.0
+margin_bottom = 248.0
+
+[node name="espalda" type="TextureButton" parent="."]
+margin_left = 216.776
+margin_top = 208.35
+margin_right = 295.776
+margin_bottom = 308.35
+
+[node name="trasero" type="TextureButton" parent="."]
+margin_left = 209.776
+margin_top = 334.0
+margin_right = 304.776
+margin_bottom = 387.0
+
+[node name="piernas" type="TextureButton" parent="."]
+margin_left = 211.126
+margin_top = 375.825
+margin_right = 301.126
+margin_bottom = 441.825
+
+[node name="talon" type="TextureButton" parent="."]
+margin_left = 208.0
+margin_top = 550.0
+margin_right = 311.0
+margin_bottom = 577.0
+
+[node name="tobillo" type="TextureButton" parent="."]
+margin_left = 209.0
+margin_top = 523.0
+margin_right = 307.0
+margin_bottom = 550.0
+
+[node name="codo" type="TextureButton" parent="."]
+margin_left = 172.65
+margin_top = 274.175
+margin_right = 201.65
+margin_bottom = 300.175
+
+[node name="codo1" type="TextureButton" parent="."]
+margin_left = 307.426
+margin_top = 275.825
+margin_right = 339.426
+margin_bottom = 297.825
