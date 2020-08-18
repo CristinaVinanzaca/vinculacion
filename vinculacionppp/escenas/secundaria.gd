@@ -1,88 +1,96 @@
 extends Node2D
 
-onready var cabeza=get_node("Cabeza")
-onready var ojos=get_node("Ojos")
-onready var orejas=get_node("Orejas")
-onready var boca=get_node("Boca")
-onready var manoi=get_node("ManoI")
-onready var manod=get_node("ManoD")
-onready var pies=get_node("Pies")
-onready var piernas=get_node("Piernas")
-onready var canillas=get_node("Canilla")
-onready var pecho=get_node("Pecho")
 onready var voltear=get_node("voltear")
-var should_loop
+onready var cabeza=get_node("cabeza2")
+onready var ojos=get_node("ojos")
+onready var nariz=get_node("nariz")
+onready var boca=get_node("boca")
+onready var oreja1=get_node("oreja1")
+onready var oreja2=get_node("oreja2")
+onready var cuello=get_node("cuello")
+onready var hombros=get_node("hombros")
+onready var pecho=get_node("pecho")
+onready var mano1=get_node("mano1")
+onready var mano2=get_node("mano2")
+onready var ombligo=get_node("ombligo")
+onready var abdomen2=get_node("abdomen2")
+onready var pIntima=get_node("pIntima")
+onready var piernas=get_node("piernas")
+onready var rodillas=get_node("rodillas")
+onready var canilla=get_node("canilla")
+onready var talon=get_node("talon")
+onready var pies=get_node("pies")
+onready var brazo1=get_node("brazo1")
+onready var brazo2=get_node("brazo2")
+
+
 func _ready():
-	cabeza.connect("pressed",self,"cabeza_down")
-	#cabeza.connect("button_up",self,"cabeza_up")
-	ojos.connect("button_down",self,"ojos_down")
-	ojos.connect("button_up",self,"ojos_up")
-	orejas.connect("button_down",self,"orejas_down")
-	orejas.connect("button_up",self,"orejas_up")
-	boca.connect("button_down",self,"boca_down")
-	boca.connect("button_up",self,"boca_up")
-	pies.connect("button_down",self,"pies_down")
-	pies.connect("button_up",self,"pies_up")
-	piernas.connect("button_down",self,"piernas_down")
-	piernas.connect("button_up",self,"piernas_up")
-	canillas.connect("button_down",self,"canillas_down")
-	canillas.connect("button_up",self,"canillas_up")
-	pecho.connect("button_down",self,"pecho_down")
-	pecho.connect("button_up",self,"pecho_up")
 	voltear.connect("pressed",self,"voltear")
-
-
-
-func cabeza_down():
-	should_loop=true
-	_on_cabeza_finished()
+	cabeza.connect("pressed",self,"_cabeza")
+	ojos.connect("pressed",self,"_ojos")
+	nariz.connect("pressed",self,"_nariz")
+	boca.connect("pressed",self,"_boca")
+	oreja1.connect("pressed",self,"_oreja")
+	oreja2.connect("pressed",self,"_oreja")
+	cuello.connect("pressed",self,"_cuello")
+	hombros.connect("pressed",self,"_hombros")
+	pecho.connect("pressed",self,"_pecho")
+	mano1.connect("pressed",self,"_mano")
+	mano2.connect("pressed",self,"_mano")
+	ombligo.connect("pressed",self,"_ombligo")
+	abdomen2.connect("pressed",self,"_abdomen")
+	pIntima.connect("pressed",self,"_pIntima")
+	piernas.connect("pressed",self,"_piernas")
+	rodillas.connect("pressed",self,"_rodillas")
+	canilla.connect("pressed",self,"_canilla")
+	talon.connect("pressed",self,"_talon")
+	pies.connect("pressed",self,"_pies")
+	brazo1.connect("pressed",self,"_brazos")
+	brazo2.connect("pressed",self,"_brazos")
 	
-func cabeza_up():
-	get_node("cabeza").stop()
-func ojos_down():
-	get_node("ojos").play()
-func ojos_up():
-	get_node("ojos").stop()
-func orejas_down():
-	get_node("orejas").play()
-func orejas_up():
-	get_node("orejas").stop()
-func boca_down():
-	get_node("boca").play()
-func boca_up():
-	get_node("boca").stop()
-func manoi_down():
-	get_node("manoi").play()
-func manoi_up():
-	get_node("manoi").stop()
-func manod_down():
-	get_node("manod").play()
-func manod_up():
-	get_node("manod").stop()
-func pies_down():
-	get_node("pies").play()
-func pies_up():
-	get_node("pies").stop()
-func piernas_down():
-	get_node("piernas").play()
-func piernas_up():
-	get_node("piernas").stop()
-func canillas_down():
-	get_node("canilla").play()
-func canillas_up():
-	get_node("canilla").stop()
-func pecho_down():
-	get_node("pecho").play()
-func pecho_up():
-	get_node("pecho").stop()
-func voltear():
+func _cargarAudio(var nombre):
+	var file="res://sound/mujer/"+nombre+".ogg"
+	print (file)
+	if File.new().file_exists(file):
+		var audio=load(file)
+		get_node("prueba").set_stream(audio)
+		get_node("prueba").play()
+func _cabeza():
+	_cargarAudio("cabeza_mujer")
+func _ojos():
+	_cargarAudio("ojos_mujer")
+func _nariz():
+	_cargarAudio("nariz_mujer")
+func _boca():
+	_cargarAudio("boca_mujer")
+func _oreja():
+	_cargarAudio("oreja_mujer")
+func _cuello():
+	_cargarAudio("cuello_mujer")
+func _hombros():
+	_cargarAudio("hombros_mujer")
+func _pecho():
+	_cargarAudio("pecho_mujer")
+func _mano():
+	_cargarAudio("mano_mujer")
+func _ombligo():
+	_cargarAudio("ombligo_mujer")
+func _abdomen():
+	_cargarAudio("abdomen_mujer")
+func _pIntima():
+	_cargarAudio("vagina_mujer")
+func _piernas():
+	_cargarAudio("muslo_mujer")
+func _rodillas():
+	_cargarAudio("rodilla_mujer")
+func _canilla():
+	_cargarAudio("canilla_mujer")
+func _talon():
+	_cargarAudio("talon_mujer")
+func _pies():
+	_cargarAudio("pies_mujer")
+func _brazos():
+	_cargarAudio("brazo_mujer")
+func voltear():	
 	get_tree().change_scene("res://escenas/espaldaMujer.tscn")
- 
 
-
-func _on_cabeza_finished():
-	if should_loop:
-		get_node("cabeza").play()
-	else:
-        get_node("cabeza").stop()
-        queue_free()

@@ -11,5 +11,5 @@ dest_files=[ "res://.import/cintura_mujer.ogg-52d23f4e67d1889cdebf9cd82e59759d.o
 
 [params]
 
-loop=true
+loop=false
 loop_offset=0

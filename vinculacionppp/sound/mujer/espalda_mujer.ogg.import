@@ -11,5 +11,5 @@ dest_files=[ "res://.import/espalda_mujer.ogg-1a818bdaebc169ab6aedb8421465a844.o
 
 [params]
 
-loop=true
+loop=false
 loop_offset=0

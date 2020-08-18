@@ -11,5 +11,5 @@ dest_files=[ "res://.import/pierna_hombre.ogg-a35c547bbd771b1ffe845fc0819f3d52.o
 
 [params]
 
-loop=true
+loop=false
 loop_offset=0

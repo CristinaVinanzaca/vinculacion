@@ -11,5 +11,5 @@ dest_files=[ "res://.import/ojos_hombre.ogg-0c7ca76016f2fe1cf41f73e256e3b06f.ogg
 
 [params]
 
-loop=true
+loop=false
 loop_offset=0

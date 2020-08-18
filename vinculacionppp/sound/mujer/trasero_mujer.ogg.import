@@ -11,5 +11,5 @@ dest_files=[ "res://.import/trasero_mujer.ogg-028a473b03a7fdf2459f1b9a75d5174c.o
 
 [params]
 
-loop=true
+loop=false
 loop_offset=0

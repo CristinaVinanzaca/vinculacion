@@ -11,5 +11,5 @@ dest_files=[ "res://.import/nariz_hombre.ogg-4f4f3bc2802131addf00ba6ec82a50e8.og
 
 [params]
 
-loop=true
+loop=false
 loop_offset=0

@@ -11,5 +11,5 @@ dest_files=[ "res://.import/trasero_hombre.ogg-9112beb58718ab4415a26e7e4e64fd9a.
 
 [params]
 
-loop=true
+loop=false
 loop_offset=0

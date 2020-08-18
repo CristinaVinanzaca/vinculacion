@@ -11,5 +11,5 @@ dest_files=[ "res://.import/rodilla_hombre.ogg-178bb7315ac86f072e4e06aac820cafa.
 
 [params]
 
-loop=true
+loop=false
 loop_offset=0

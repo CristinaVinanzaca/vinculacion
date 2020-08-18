@@ -11,5 +11,5 @@ dest_files=[ "res://.import/cejas_hombre.ogg-8ff6f19ae3108c3171e32971b8ca8bed.og
 
 [params]
 
-loop=true
+loop=false
 loop_offset=0

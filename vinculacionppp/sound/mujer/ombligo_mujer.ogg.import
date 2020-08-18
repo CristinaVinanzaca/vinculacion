@@ -11,5 +11,5 @@ dest_files=[ "res://.import/ombligo_mujer.ogg-8005ee1d6fda2bbb60742c43c016fa11.o
 
 [params]
 
-loop=true
+loop=false
 loop_offset=0

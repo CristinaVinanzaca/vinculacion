@@ -11,5 +11,5 @@ dest_files=[ "res://.import/nuca_muujer.ogg-10535660aa67a28ad5e111489e4aa467.ogg
 
 [params]
 
-loop=true
+loop=false
 loop_offset=0

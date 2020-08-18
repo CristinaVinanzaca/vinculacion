@@ -11,5 +11,5 @@ dest_files=[ "res://.import/cabeza_mujer.ogg-458f36c25dfcb71956616a9f2196d3aa.og
 
 [params]
 
-loop=true
+loop=false
 loop_offset=0

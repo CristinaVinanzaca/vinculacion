@@ -11,5 +11,5 @@ dest_files=[ "res://.import/codo_hombre.ogg-954bda4d10d40932954cb166ccf53237.ogg
 
 [params]
 
-loop=true
+loop=false
 loop_offset=0

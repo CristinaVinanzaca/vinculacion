@@ -11,5 +11,5 @@ dest_files=[ "res://.import/boca_hombre.ogg-8dc9c31ad6e74a6dabee450966c4d146.ogg
 
 [params]
 
-loop=true
+loop=false
 loop_offset=0

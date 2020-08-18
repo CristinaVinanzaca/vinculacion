@@ -11,5 +11,5 @@ dest_files=[ "res://.import/cadera_hombre.ogg-2d80db439c16749f702c4c3029000929.o
 
 [params]
 
-loop=true
+loop=false
 loop_offset=0

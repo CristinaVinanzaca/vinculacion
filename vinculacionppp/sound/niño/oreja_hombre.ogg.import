@@ -11,5 +11,5 @@ dest_files=[ "res://.import/oreja_hombre.ogg-389703ff84575d45808a74c660a54b83.og
 
 [params]
 
-loop=true
+loop=false
 loop_offset=0

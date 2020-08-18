@@ -11,5 +11,5 @@ dest_files=[ "res://.import/orejasMujer.ogg-feae751501c6d3f1b30d34d38cf5db44.ogg
 
 [params]
 
-loop=true
+loop=false
 loop_offset=0

@@ -11,5 +11,5 @@ dest_files=[ "res://.import/abdomen_hombre.ogg-419a3302a91d89512790e7370faee625.
 
 [params]
 
-loop=true
+loop=false
 loop_offset=0

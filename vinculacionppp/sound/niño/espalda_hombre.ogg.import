@@ -11,5 +11,5 @@ dest_files=[ "res://.import/espalda_hombre.ogg-b60b3dfcb79758cae6fed332f26912a8.
 
 [params]
 
-loop=true
+loop=false
 loop_offset=0

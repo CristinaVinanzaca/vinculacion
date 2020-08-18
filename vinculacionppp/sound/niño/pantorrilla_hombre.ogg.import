@@ -11,5 +11,5 @@ dest_files=[ "res://.import/pantorrilla_hombre.ogg-b573a3198fb96d293e163cde9f177
 
 [params]
 
-loop=true
+loop=false
 loop_offset=0

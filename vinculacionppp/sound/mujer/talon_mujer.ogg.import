@@ -11,5 +11,5 @@ dest_files=[ "res://.import/talon_mujer.ogg-b64be10c820f6d99f4ab4e7a2bcb779d.ogg
 
 [params]
 
-loop=true
+loop=false
 loop_offset=0

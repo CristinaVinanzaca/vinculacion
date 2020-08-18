@@ -11,5 +11,5 @@ dest_files=[ "res://.import/tobillo_mujer.ogg-a4bb8fa0451a349b1d4164be5c6735b0.o
 
 [params]
 
-loop=true
+loop=false
 loop_offset=0

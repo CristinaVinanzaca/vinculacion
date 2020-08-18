@@ -11,5 +11,5 @@ dest_files=[ "res://.import/vagina_mujer.ogg-99b38d2470a278d344fab92376739d3f.og
 
 [params]
 
-loop=true
+loop=false
 loop_offset=0

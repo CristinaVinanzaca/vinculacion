@@ -11,5 +11,5 @@ dest_files=[ "res://.import/canilla_hombre.ogg-bf1ac6e989868daac33e3816bcc31a5a.
 
 [params]
 
-loop=true
+loop=false
 loop_offset=0

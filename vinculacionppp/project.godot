@@ -16,7 +16,7 @@ _global_script_class_icons={
 [application]
 
 config/name="vinculacionppp"
-run/main_scene="res://escenas/main.tscn"
+run/main_scene="res://escenas/niñoPrincipal.tscn"
 config/icon="res://icon.png"
 
 [display]

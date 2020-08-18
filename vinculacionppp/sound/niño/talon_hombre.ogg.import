@@ -11,5 +11,5 @@ dest_files=[ "res://.import/talon_hombre.ogg-cbdba5fc8ec078928e7e383f52172f69.og
 
 [params]
 
-loop=true
+loop=false
 loop_offset=0

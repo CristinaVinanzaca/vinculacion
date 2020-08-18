@@ -11,5 +11,5 @@ dest_files=[ "res://.import/canilla_mujer.ogg-25bce31817de6a5b0270c6b4012cc813.o
 
 [params]
 
-loop=true
+loop=false
 loop_offset=0

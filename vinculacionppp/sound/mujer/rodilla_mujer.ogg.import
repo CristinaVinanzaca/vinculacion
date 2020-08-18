@@ -11,5 +11,5 @@ dest_files=[ "res://.import/rodilla_mujer.ogg-914383ff3d87f3471e214c825854e2ba.o
 
 [params]
 
-loop=true
+loop=false
 loop_offset=0

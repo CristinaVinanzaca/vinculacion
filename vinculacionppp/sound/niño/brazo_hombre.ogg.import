@@ -11,5 +11,5 @@ dest_files=[ "res://.import/brazo_hombre.ogg-b43dc449a83392a5457f8df61184749c.og
 
 [params]
 
-loop=true
+loop=false
 loop_offset=0

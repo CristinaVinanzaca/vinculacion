@@ -11,5 +11,5 @@ dest_files=[ "res://.import/codo_mujer.ogg-db79af0f69184e5076ec6349edea618e.oggs
 
 [params]
 
-loop=true
+loop=false
 loop_offset=0

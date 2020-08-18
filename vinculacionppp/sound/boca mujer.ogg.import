@@ -11,5 +11,5 @@ dest_files=[ "res://.import/boca mujer.ogg-45730d95d82346b74c9c29145ea6665d.oggs
 
 [params]
 
-loop=true
+loop=false
 loop_offset=0
