@@ -1,10 +1,11 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://escenas/secundaria.gd" type="Script" id=1]
 [ext_resource path="res://imagen/7--1672362-Fire transition.jpg" type="Texture" id=2]
 [ext_resource path="res://imagen/cuerposXD/fotode niña frente.png" type="Texture" id=3]
 [ext_resource path="res://imagen/fotos de vinculacion/volver.jpg" type="Texture" id=4]
 [ext_resource path="res://sound/mujer/ombligo_mujer.ogg" type="AudioStream" id=5]
+[ext_resource path="res://imagen/menu.png" type="Texture" id=6]
 
 [node name="Node2D" type="Node2D"]
 script = ExtResource( 1 )
@@ -44,6 +45,9 @@ margin_left = 179.0
 margin_top = 78.0
 margin_right = 313.0
 margin_bottom = 206.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="ojos" type="TextureButton" parent="."]
 margin_left = 213.0
@@ -140,6 +144,9 @@ margin_left = 211.0
 margin_top = 478.0
 margin_right = 286.0
 margin_bottom = 528.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="talon" type="TextureButton" parent="."]
 margin_left = 220.0
@@ -164,3 +171,16 @@ margin_left = 289.0
 margin_top = 247.0
 margin_right = 340.0
 margin_bottom = 315.0
+
+[node name="Button" type="Button" parent="."]
+margin_left = 178.0
+margin_top = 648.0
+margin_right = 702.0
+margin_bottom = 882.0
+rect_scale = Vector2( 0.258065, 0.295578 )
+icon = ExtResource( 6 )
+flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]

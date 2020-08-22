@@ -92,3 +92,7 @@ func _brazos():
 func voltear():	
 	get_tree().change_scene("res://escenas/niñoEspalda.tscn")
 
+
+
+func _on_Buttonvolvermenu_pressed():
+	get_tree().change_scene("res://Menuinicio.tscn")
