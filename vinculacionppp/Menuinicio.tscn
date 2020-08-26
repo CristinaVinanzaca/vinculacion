@@ -1,9 +1,9 @@
 [gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://Menuinicio.gd" type="Script" id=1]
-[ext_resource path="res://ParallaxBackground.tscn" type="PackedScene" id=2]
+[ext_resource path="res://imagen/hombre.png" type="Texture" id=2]
 [ext_resource path="res://imagen/cuerpo11 (2).png" type="Texture" id=3]
-[ext_resource path="res://imagen/hombre.png" type="Texture" id=5]
+[ext_resource path="res://ParallaxBackground.tscn" type="PackedScene" id=4]
 
 [sub_resource type="StyleBoxEmpty" id=1]
 
@@ -30,22 +30,22 @@ __meta__ = {
 margin_right = 362.0
 
 [node name="Buttoninicioniño" type="Button" parent="VBoxContainer/TextureButton"]
-margin_left = -26.6968
-margin_top = 54.7284
-margin_right = 374.303
-margin_bottom = 853.728
+margin_left = -27.0
+margin_top = 5.0
+margin_right = 374.0
+margin_bottom = 920.0
 rect_scale = Vector2( 0.455548, 0.451194 )
-icon = ExtResource( 5 )
+icon = ExtResource( 2 )
 flat = true
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="Buttoninicioniña" type="Button" parent="VBoxContainer/TextureButton"]
-margin_left = 185.728
-margin_top = 57.0181
-margin_right = 584.728
-margin_bottom = 830.018
+margin_left = 177.0
+margin_top = -21.85
+margin_right = 596.0
+margin_bottom = 1005.15
 rect_scale = Vector2( 0.448318, 0.455837 )
 icon = ExtResource( 3 )
 flat = true
@@ -53,22 +53,22 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="ParallaxBackground" parent="." instance=ExtResource( 2 )]
+[node name="ParallaxBackground" parent="." instance=ExtResource( 4 )]
 
 [node name="HBoxContainer" type="HBoxContainer" parent="."]
-margin_left = 63.0
-margin_top = 101.0
-margin_right = 406.0
-margin_bottom = 170.0
+margin_left = 134.054
+margin_top = 81.5293
+margin_right = 263.054
+margin_bottom = 130.529
 rect_scale = Vector2( 1.76314, 2.10027 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="Label" type="Label" parent="HBoxContainer"]
-margin_top = 27.0
+margin_top = 17.0
 margin_right = 114.0
-margin_bottom = 41.0
+margin_bottom = 31.0
 custom_styles/normal = SubResource( 1 )
 custom_colors/font_color = Color( 0.0156863, 0, 0, 1 )
 custom_colors/font_outline_modulate = Color( 0.0784314, 0.0196078, 0.0196078, 1 )
