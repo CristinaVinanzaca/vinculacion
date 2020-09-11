@@ -84,7 +84,7 @@ func _rodillas():
 func _canilla():
 	_cargarAudio("canilla_hombre")
 func _talon():
-	_cargarAudio("talon_hombre")
+	_cargarAudio("tobillo_hombre")
 func _pies():
 	_cargarAudio("pies_hombre")
 func _brazos():

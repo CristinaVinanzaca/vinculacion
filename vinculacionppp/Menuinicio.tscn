@@ -1,8 +1,8 @@
 [gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://Menuinicio.gd" type="Script" id=1]
-[ext_resource path="res://imagen/hombre.png" type="Texture" id=2]
-[ext_resource path="res://imagen/cuerpo11 (2).png" type="Texture" id=3]
+[ext_resource path="res://imagen/MenuSinFOndo/niño.png" type="Texture" id=2]
+[ext_resource path="res://imagen/MenuSinFOndo/niña.png" type="Texture" id=3]
 [ext_resource path="res://ParallaxBackground.tscn" type="PackedScene" id=4]
 
 [sub_resource type="StyleBoxEmpty" id=1]
@@ -30,10 +30,10 @@ __meta__ = {
 margin_right = 362.0
 
 [node name="Buttoninicioniño" type="Button" parent="VBoxContainer/TextureButton"]
-margin_left = -27.0
-margin_top = 5.0
-margin_right = 374.0
-margin_bottom = 920.0
+margin_left = -34.0
+margin_top = -75.0
+margin_right = 1080.0
+margin_bottom = 1190.0
 rect_scale = Vector2( 0.455548, 0.451194 )
 icon = ExtResource( 2 )
 flat = true
