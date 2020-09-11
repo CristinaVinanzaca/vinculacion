@@ -26,6 +26,7 @@ margin_bottom = 637.0
 text = "VOLTEAR"
 
 [node name="audios" type="AudioStreamPlayer" parent="."]
+volume_db = 24.0
 
 [node name="cabeza" type="TextureButton" parent="."]
 margin_left = 190.126

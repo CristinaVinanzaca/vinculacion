@@ -68,6 +68,7 @@ margin_right = 299.0
 margin_bottom = 462.0
 
 [node name="prueba" type="AudioStreamPlayer" parent="."]
+bus = "cuepos"
 
 [node name="talon" type="TextureButton" parent="."]
 margin_left = 216.0

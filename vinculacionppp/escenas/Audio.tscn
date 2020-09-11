@@ -1,0 +1,8 @@
+[gd_scene format=2]
+
+[node name="Audio" type="Node2D"]
+
+[node name="musicaFondo" type="AudioStreamPlayer" parent="."]
+volume_db = -10.0
+autoplay = true
+bus = "fondo"
