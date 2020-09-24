@@ -1,9 +1,10 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://escenas/niñoFrente.gd" type="Script" id=1]
 [ext_resource path="res://imagen/fondos/fondoniños.png" type="Texture" id=2]
 [ext_resource path="res://imagen/cuerposXD/niñoFrenteSF.png" type="Texture" id=3]
 [ext_resource path="res://imagen/menu.png" type="Texture" id=4]
+[ext_resource path="res://imagen/flecha-color-e1454f.png" type="Texture" id=5]
 
 [node name="Node2D" type="Node2D"]
 script = ExtResource( 1 )
@@ -79,6 +80,9 @@ margin_left = 196.178
 margin_top = 197.881
 margin_right = 302.178
 margin_bottom = 253.881
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="mano1" type="TextureButton" parent="."]
 margin_left = 129.0
@@ -121,6 +125,9 @@ margin_left = 184.0
 margin_top = 415.119
 margin_right = 307.0
 margin_bottom = 447.119
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="canilla" type="TextureButton" parent="."]
 margin_left = 186.119
@@ -153,11 +160,16 @@ margin_right = 351.0
 margin_bottom = 315.0
 
 [node name="Voltear" type="Button" parent="."]
-margin_left = 157.476
-margin_top = 607.0
-margin_right = 334.476
-margin_bottom = 642.0
-text = "VOLTEAR"
+margin_left = 182.932
+margin_top = 594.272
+margin_right = 734.932
+margin_bottom = 930.272
+rect_scale = Vector2( 0.222173, 0.17856 )
+icon = ExtResource( 5 )
+flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="Buttonvolvermenu" type="Button" parent="."]
 margin_left = 366.538

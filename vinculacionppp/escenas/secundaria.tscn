@@ -1,8 +1,9 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://escenas/secundaria.gd" type="Script" id=1]
 [ext_resource path="res://imagen/fondos/fonfo niña.jpg" type="Texture" id=2]
 [ext_resource path="res://imagen/cuerposXD/niñaFrenteSF.png" type="Texture" id=3]
+[ext_resource path="res://imagen/flecha-color-e1454f.png" type="Texture" id=4]
 [ext_resource path="res://sound/mujer/ombligo_mujer.ogg" type="AudioStream" id=5]
 [ext_resource path="res://imagen/menu.png" type="Texture" id=6]
 
@@ -22,11 +23,16 @@ texture = ExtResource( 3 )
 offset = Vector2( 124.857, 156.643 )
 
 [node name="voltear" type="Button" parent="."]
-margin_left = 148.0
-margin_top = 605.0
-margin_right = 332.0
-margin_bottom = 653.0
-text = "VOLTEAR"
+margin_left = 178.238
+margin_top = 612.56
+margin_right = 730.238
+margin_bottom = 948.56
+rect_scale = Vector2( 0.280004, 0.199998 )
+icon = ExtResource( 4 )
+flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="prueba" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 5 )

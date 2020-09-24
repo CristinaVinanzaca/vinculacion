@@ -3,7 +3,7 @@
 [ext_resource path="res://Node2D.gd" type="Script" id=1]
 [ext_resource path="res://imagen/fondos/fonfo niña.jpg" type="Texture" id=2]
 [ext_resource path="res://imagen/cuerposXD/niñaAtrasSF.png" type="Texture" id=3]
-[ext_resource path="res://imagen/return verde.png" type="Texture" id=4]
+[ext_resource path="res://imagen/flecha-color-e1454f.png" type="Texture" id=4]
 
 [node name="Node2D" type="Node2D"]
 script = ExtResource( 1 )
@@ -19,11 +19,11 @@ scale = Vector2( 1.0708, 0.961467 )
 texture = ExtResource( 3 )
 
 [node name="voltear" type="Button" parent="."]
-margin_left = 2.0
-margin_top = 2.0
-margin_right = 107.0
-margin_bottom = 48.0
-text = "Volver"
+margin_left = 180.0
+margin_top = 632.0
+margin_right = 732.0
+margin_bottom = 968.0
+rect_scale = Vector2( 0.309908, 0.18188 )
 icon = ExtResource( 4 )
 flat = true
 __meta__ = {
