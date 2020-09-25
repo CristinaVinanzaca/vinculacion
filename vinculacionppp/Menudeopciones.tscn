@@ -1,0 +1,80 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://cuerpo (2).png" type="Texture" id=1]
+[ext_resource path="res://escenas/Fondodeestrellas.tscn" type="PackedScene" id=2]
+[ext_resource path="res://imagen/cuerposXD/niñaFrenteSF.png" type="Texture" id=3]
+[ext_resource path="res://imagen/WhatsApp_Image_2020-09-24_at_21.17.02-removebg-preview.png" type="Texture" id=4]
+[ext_resource path="res://imagen/WhatsApp_Image_2020-09-24_at_21.17.03-removebg-preview.png" type="Texture" id=5]
+[ext_resource path="res://escenas/Menudeopciones.gd" type="Script" id=6]
+
+[node name="Menudeactividades" type="Control"]
+margin_right = 483.0
+margin_bottom = 720.0
+script = ExtResource( 6 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="VBoxbotones" type="VBoxContainer" parent="."]
+margin_left = 18.8775
+margin_top = 22.653
+margin_right = 58.8775
+margin_bottom = 62.653
+rect_scale = Vector2( 11.1241, 16.4135 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="partesdecara" type="Button" parent="."]
+margin_left = 81.6427
+margin_top = 371.121
+margin_right = 491.643
+margin_bottom = 663.121
+rect_scale = Vector2( 0.247458, 0.223767 )
+icon = ExtResource( 1 )
+flat = true
+
+[node name="partesdehuesos" type="Button" parent="."]
+margin_left = 279.561
+margin_top = 519.523
+margin_right = 559.561
+margin_bottom = 908.523
+rect_scale = Vector2( 0.464719, 0.394382 )
+icon = ExtResource( 5 )
+flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="partesorganos" type="Button" parent="."]
+margin_left = 302.359
+margin_top = 354.868
+margin_right = 582.359
+margin_bottom = 732.868
+rect_scale = Vector2( 0.402916, 0.277518 )
+icon = ExtResource( 4 )
+flat = true
+
+[node name="ParallaxBackground" parent="." instance=ExtResource( 2 )]
+
+[node name="CuerpoEntero" type="Button" parent="."]
+margin_left = 99.3807
+margin_top = 561.766
+margin_right = 384.381
+margin_bottom = 1167.77
+rect_scale = Vector2( 0.326768, 0.168933 )
+icon = ExtResource( 3 )
+flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button" type="Button" parent="."]
+margin_left = 114.491
+margin_top = -2.24495
+margin_right = 399.491
+margin_bottom = 603.755
+rect_scale = Vector2( 0.81477, 0.600728 )
+icon = ExtResource( 3 )
+flat = true
+[connection signal="pressed" from="CuerpoEntero" to="." method="_on_CuerpoEntero_pressed"]

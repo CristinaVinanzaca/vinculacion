@@ -1,8 +1,8 @@
 [gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://Menuinicio.gd" type="Script" id=1]
-[ext_resource path="res://imagen/MenuSinFOndo/niño.png" type="Texture" id=2]
-[ext_resource path="res://imagen/MenuSinFOndo/niña.png" type="Texture" id=3]
+[ext_resource path="res://imagen/cuerposXD/niñaFrenteSF.png" type="Texture" id=2]
+[ext_resource path="res://imagen/cuerposXD/niñoFrenteSF.png" type="Texture" id=3]
 [ext_resource path="res://ParallaxBackground.tscn" type="PackedScene" id=4]
 
 [sub_resource type="StyleBoxEmpty" id=1]
@@ -30,24 +30,24 @@ __meta__ = {
 margin_right = 362.0
 
 [node name="Buttoninicioniño" type="Button" parent="VBoxContainer/TextureButton"]
-margin_left = -34.0
-margin_top = -75.0
-margin_right = 1080.0
-margin_bottom = 1190.0
-rect_scale = Vector2( 0.455548, 0.451194 )
-icon = ExtResource( 2 )
+margin_left = -71.7977
+margin_top = -198.472
+margin_right = 1042.2
+margin_bottom = 1066.53
+rect_scale = Vector2( 1.16264, 0.669093 )
+icon = ExtResource( 3 )
 flat = true
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="Buttoninicioniña" type="Button" parent="VBoxContainer/TextureButton"]
-margin_left = 177.0
-margin_top = -21.85
-margin_right = 596.0
-margin_bottom = 1005.15
-rect_scale = Vector2( 0.448318, 0.455837 )
-icon = ExtResource( 3 )
+margin_left = 151.802
+margin_top = -120.124
+margin_right = 570.802
+margin_bottom = 906.876
+rect_scale = Vector2( 0.913323, 0.656379 )
+icon = ExtResource( 2 )
 flat = true
 __meta__ = {
 "_edit_use_anchors_": false

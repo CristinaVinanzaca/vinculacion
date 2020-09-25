@@ -8,4 +8,4 @@ func _on_Buttoninicionio_pressed():
 
 
 func _on_Buttoninicionia_pressed():
-	get_tree().change_scene("res://escenas/secundaria.tscn")
+	get_tree().change_scene("res://Menudeopciones.tscn")
