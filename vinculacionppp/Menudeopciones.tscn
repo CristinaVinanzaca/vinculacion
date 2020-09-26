@@ -77,4 +77,3 @@ margin_bottom = 603.755
 rect_scale = Vector2( 0.81477, 0.600728 )
 icon = ExtResource( 3 )
 flat = true
-[connection signal="pressed" from="CuerpoEntero" to="." method="_on_CuerpoEntero_pressed"]

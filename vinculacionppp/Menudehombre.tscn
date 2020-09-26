@@ -23,10 +23,10 @@ __meta__ = {
 }
 
 [node name="cabeza" type="Button" parent="."]
-margin_left = 105.822
-margin_top = 397.789
-margin_right = 423.822
-margin_bottom = 721.789
+margin_left = 106.0
+margin_top = 424.0
+margin_right = 424.0
+margin_bottom = 819.0
 rect_scale = Vector2( 0.246997, 0.225851 )
 icon = ExtResource( 3 )
 flat = true
@@ -36,18 +36,21 @@ __meta__ = {
 
 [node name="OrganosHombres" type="Button" parent="cabeza"]
 margin_left = 793.574
-margin_top = 131.517
+margin_top = 25.2522
 margin_right = 1073.57
-margin_bottom = 509.517
+margin_bottom = 403.252
 rect_scale = Vector2( 1.37019, 1.04772 )
 icon = ExtResource( 4 )
 flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="Esqueletohombre" type="Button" parent="cabeza/OrganosHombres"]
-margin_left = -142.179
-margin_top = 419.821
-margin_right = 137.821
-margin_bottom = 808.821
+margin_left = -71.2639
+margin_top = 377.56
+margin_right = 208.736
+margin_bottom = 766.56
 rect_scale = Vector2( 1.50998, 1.35555 )
 icon = ExtResource( 2 )
 flat = true
@@ -77,4 +80,3 @@ icon = ExtResource( 1 )
 flat = true
 
 [node name="ParallaxBackground" parent="." instance=ExtResource( 5 )]
-[connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]
