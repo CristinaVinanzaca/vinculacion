@@ -1,3 +1,16 @@
-[gd_scene format=2]
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://imagen/MenuSinFOndo/niñaEsqueleto.png" type="Texture" id=1]
+[ext_resource path="res://imagen/fondos/fonfo niña.jpg" type="Texture" id=2]
 
 [node name="Node2D" type="Node2D"]
+
+[node name="fondo" type="Sprite" parent="."]
+position = Vector2( 241, 370 )
+scale = Vector2( 1, 1.44531 )
+texture = ExtResource( 2 )
+
+[node name="huesos" type="Sprite" parent="fondo"]
+position = Vector2( 3.56763, 2.46841 )
+scale = Vector2( 1.03799, 0.843668 )
+texture = ExtResource( 1 )

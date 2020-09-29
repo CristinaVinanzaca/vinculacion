@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/intestino grueso.ogg-781b18879aff8852c42baa2946f5386a.oggstr"
+
+[deps]
+
+source_file="res://sound/menuInicioNiño/sistema digestivo hombre/intestino grueso.ogg"
+dest_files=[ "res://.import/intestino grueso.ogg-781b18879aff8852c42baa2946f5386a.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

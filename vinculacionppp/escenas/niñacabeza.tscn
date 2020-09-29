@@ -1,3 +1,16 @@
-[gd_scene format=2]
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://imagen/MenuSinFOndo/cuerpo (2).png" type="Texture" id=1]
+[ext_resource path="res://imagen/fondos/fonfo niña.jpg" type="Texture" id=2]
 
 [node name="Node2D" type="Node2D"]
+
+[node name="fondo" type="Sprite" parent="."]
+position = Vector2( 240, 347.998 )
+scale = Vector2( 1, 1.51563 )
+texture = ExtResource( 2 )
+
+[node name="cabeza" type="Sprite" parent="fondo"]
+position = Vector2( -2.37841, -7.06164 )
+scale = Vector2( 1.05976, 0.939644 )
+texture = ExtResource( 1 )

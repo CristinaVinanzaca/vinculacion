@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/higado.ogg-66332840b2bb22597bef299fd936199d.oggstr"
+
+[deps]
+
+source_file="res://sound/menuInicioNiño/sistema digestivo hombre/higado.ogg"
+dest_files=[ "res://.import/higado.ogg-66332840b2bb22597bef299fd936199d.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

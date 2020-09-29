@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/craneo.ogg-cd5f32f8c6abd5fb061b8e2594027006.oggstr"
+
+[deps]
+
+source_file="res://sound/menuInicioNiño/esqueleto hombre/craneo.ogg"
+dest_files=[ "res://.import/craneo.ogg-cd5f32f8c6abd5fb061b8e2594027006.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

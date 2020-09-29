@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/frente.ogg-ccf8945f2be0df6a428879799de77992.oggstr"
+
+[deps]
+
+source_file="res://sound/menuInicioNiño/partes_de_la_cara_hombre/frente.ogg"
+dest_files=[ "res://.import/frente.ogg-ccf8945f2be0df6a428879799de77992.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

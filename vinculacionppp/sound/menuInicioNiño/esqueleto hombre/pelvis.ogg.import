@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/pelvis.ogg-4c30355617d3a793b07739b2e091a269.oggstr"
+
+[deps]
+
+source_file="res://sound/menuInicioNiño/esqueleto hombre/pelvis.ogg"
+dest_files=[ "res://.import/pelvis.ogg-4c30355617d3a793b07739b2e091a269.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

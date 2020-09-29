@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/estomago.ogg-a8ff83e94f9ec71c795276b6e6ff696a.oggstr"
+
+[deps]
+
+source_file="res://sound/menuInicioNiño/sistema digestivo hombre/estomago.ogg"
+dest_files=[ "res://.import/estomago.ogg-a8ff83e94f9ec71c795276b6e6ff696a.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

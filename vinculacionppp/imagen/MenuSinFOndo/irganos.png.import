@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/niña frente.png-e0e0d22d10c5e083a1e1499f761580ad.stex"
+path="res://.import/irganos.png-b1a4079ea35283bb3f945ce8e34fd323.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://imagen/imagenes cuerpos/niña frente.png"
-dest_files=[ "res://.import/niña frente.png-e0e0d22d10c5e083a1e1499f761580ad.stex" ]
+source_file="res://imagen/MenuSinFOndo/irganos.png"
+dest_files=[ "res://.import/irganos.png-b1a4079ea35283bb3f945ce8e34fd323.stex" ]
 
 [params]
 

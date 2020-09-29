@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/nariz.ogg-4b6ba7409073a6f9d67c5690dfcdfb78.oggstr"
+
+[deps]
+
+source_file="res://sound/menuInicioNiño/partes_de_la_cara_hombre/nariz.ogg"
+dest_files=[ "res://.import/nariz.ogg-4b6ba7409073a6f9d67c5690dfcdfb78.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

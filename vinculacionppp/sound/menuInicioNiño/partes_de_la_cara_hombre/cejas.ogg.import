@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/cejas.ogg-a6428bad7d2aa48c92798fff0429f2d6.oggstr"
+
+[deps]
+
+source_file="res://sound/menuInicioNiño/partes_de_la_cara_hombre/cejas.ogg"
+dest_files=[ "res://.import/cejas.ogg-a6428bad7d2aa48c92798fff0429f2d6.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/niña espalda.png-fa2c348204ebf70bb83c20a517e678bf.stex"
+path="res://.import/cuerpo (2).png-804fe06ee229d6806d90474dff4988d4.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://imagen/imagenes cuerpos/niña espalda.png"
-dest_files=[ "res://.import/niña espalda.png-fa2c348204ebf70bb83c20a517e678bf.stex" ]
+source_file="res://imagen/MenuSinFOndo/cuerpo (2).png"
+dest_files=[ "res://.import/cuerpo (2).png-804fe06ee229d6806d90474dff4988d4.stex" ]
 
 [params]
 

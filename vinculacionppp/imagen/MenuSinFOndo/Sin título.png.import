@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/niño espalda.png-9c997e553aad1335a477552c99e731b8.stex"
+path="res://.import/Sin título.png-de96323ccc1886b0ad837ea5e9d8d8cd.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://imagen/imagenes cuerpos/niño espalda.png"
-dest_files=[ "res://.import/niño espalda.png-9c997e553aad1335a477552c99e731b8.stex" ]
+source_file="res://imagen/MenuSinFOndo/Sin título.png"
+dest_files=[ "res://.import/Sin título.png-de96323ccc1886b0ad837ea5e9d8d8cd.stex" ]
 
 [params]
 
