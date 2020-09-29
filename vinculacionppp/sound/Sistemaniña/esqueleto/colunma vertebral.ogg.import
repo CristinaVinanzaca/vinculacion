@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/colunma vertebral.ogg-c5199d1fceae0e6de13a5e6961b81af9.oggstr"
+
+[deps]
+
+source_file="res://sound/Sistemaniña/esqueleto/colunma vertebral.ogg"
+dest_files=[ "res://.import/colunma vertebral.ogg-c5199d1fceae0e6de13a5e6961b81af9.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

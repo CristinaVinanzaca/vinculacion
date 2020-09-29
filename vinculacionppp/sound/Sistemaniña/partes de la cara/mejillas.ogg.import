@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/mejillas.ogg-a457f8035d66b9f09cde9dc947c02198.oggstr"
+
+[deps]
+
+source_file="res://sound/Sistemaniña/partes de la cara/mejillas.ogg"
+dest_files=[ "res://.import/mejillas.ogg-a457f8035d66b9f09cde9dc947c02198.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

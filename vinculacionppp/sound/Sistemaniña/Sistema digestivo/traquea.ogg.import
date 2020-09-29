@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/traquea.ogg-4ce430f6c2bfb70fda52f6e49a8d8ab2.oggstr"
+
+[deps]
+
+source_file="res://sound/Sistemaniña/Sistema digestivo/traquea.ogg"
+dest_files=[ "res://.import/traquea.ogg-4ce430f6c2bfb70fda52f6e49a8d8ab2.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

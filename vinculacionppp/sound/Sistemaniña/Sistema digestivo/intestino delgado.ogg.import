@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/intestino delgado.ogg-0bc6ab548f5e4308cbfbcdbbd7f951f2.oggstr"
+
+[deps]
+
+source_file="res://sound/Sistemaniña/Sistema digestivo/intestino delgado.ogg"
+dest_files=[ "res://.import/intestino delgado.ogg-0bc6ab548f5e4308cbfbcdbbd7f951f2.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

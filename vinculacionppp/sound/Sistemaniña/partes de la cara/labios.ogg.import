@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/labios.ogg-24fd19bd83f4feb5cc9e5389ee075db9.oggstr"
+
+[deps]
+
+source_file="res://sound/Sistemaniña/partes de la cara/labios.ogg"
+dest_files=[ "res://.import/labios.ogg-24fd19bd83f4feb5cc9e5389ee075db9.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

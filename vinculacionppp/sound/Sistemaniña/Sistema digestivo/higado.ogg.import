@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/higado.ogg-2a0e6004822c60af38e83d6942fd61f9.oggstr"
+
+[deps]
+
+source_file="res://sound/Sistemaniña/Sistema digestivo/higado.ogg"
+dest_files=[ "res://.import/higado.ogg-2a0e6004822c60af38e83d6942fd61f9.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

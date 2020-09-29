@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/cabello.ogg-3a72c6a388b968fc52de511878e85131.oggstr"
+
+[deps]
+
+source_file="res://sound/Sistemaniña/partes de la cara/cabello.ogg"
+dest_files=[ "res://.import/cabello.ogg-3a72c6a388b968fc52de511878e85131.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0
