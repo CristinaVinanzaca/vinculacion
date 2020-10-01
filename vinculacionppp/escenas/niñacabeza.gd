@@ -36,3 +36,9 @@ func _boca1():
 	_cargarAudio("boca")
 func _cabello():
 	_cargarAudio("cabello")
+
+func _on_Button_pressed():
+	get_tree().change_scene("res://Menudeopciones.tscn")
+
+
+

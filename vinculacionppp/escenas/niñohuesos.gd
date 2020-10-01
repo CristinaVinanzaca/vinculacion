@@ -30,3 +30,7 @@ func _craneo():
 	_cargarAudio("craneo")
 func _pelvis():
 	_cargarAudio("pelvis")
+
+
+func _on_Button_pressed():
+	get_tree().change_scene("res://Menudehombre.tscn")

@@ -42,10 +42,10 @@ __meta__ = {
 }
 
 [node name="Buttoninicioniña" type="Button" parent="VBoxContainer/TextureButton"]
-margin_left = 151.802
-margin_top = -120.124
-margin_right = 570.802
-margin_bottom = 906.876
+margin_left = 144.675
+margin_top = -112.997
+margin_right = 563.675
+margin_bottom = 914.003
 rect_scale = Vector2( 0.913323, 0.656379 )
 icon = ExtResource( 2 )
 flat = true

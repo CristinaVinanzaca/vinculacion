@@ -34,3 +34,7 @@ func _mejillas1():
 	_cargarAudio("mejillas")
 func _boca1():
 	_cargarAudio("boca")
+
+
+func _on_Button_pressed():
+	get_tree().change_scene()

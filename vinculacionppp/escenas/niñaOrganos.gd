@@ -32,3 +32,7 @@ func _iDel():
 	_cargarAudio("intestino delgado")
 func _traquea():
 	_cargarAudio("traquea")
+
+
+func _on_Button_pressed():
+	get_tree().change_scene("res://Menudeopciones.tscn")
