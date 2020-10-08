@@ -95,4 +95,4 @@ func voltear():
 
 
 func _on_Buttonvolvermenu_pressed():
-	get_tree().change_scene("res://Menuinicio.tscn")
+	get_tree().change_scene("res://Menudehombre.tscn")

@@ -37,4 +37,4 @@ func _boca1():
 
 
 func _on_Button_pressed():
-	get_tree().change_scene()
+	get_tree().change_scene("res://Menudehombre.tscn")

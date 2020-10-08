@@ -83,10 +83,10 @@ __meta__ = {
 [node name="audios" type="AudioStreamPlayer" parent="."]
 
 [node name="Button" type="Button" parent="."]
-margin_left = 164.074
-margin_top = 645.854
-margin_right = 688.074
-margin_bottom = 879.854
+margin_left = 340.51
+margin_top = 3.63798e-12
+margin_right = 864.51
+margin_bottom = 234.0
 rect_scale = Vector2( 0.263514, 0.222052 )
 icon = ExtResource( 4 )
 flat = true

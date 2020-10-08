@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=2]
+[gd_scene load_steps=8 format=2]
 
 [ext_resource path="res://cuerpo (2).png" type="Texture" id=1]
 [ext_resource path="res://escenas/Fondodeestrellas.tscn" type="PackedScene" id=2]
@@ -6,6 +6,7 @@
 [ext_resource path="res://imagen/WhatsApp_Image_2020-09-24_at_21.17.02-removebg-preview.png" type="Texture" id=4]
 [ext_resource path="res://imagen/WhatsApp_Image_2020-09-24_at_21.17.03-removebg-preview.png" type="Texture" id=5]
 [ext_resource path="res://escenas/Menudeopciones.gd" type="Script" id=6]
+[ext_resource path="res://imagen/descarga.png" type="Texture" id=7]
 
 [node name="Menudeactividades" type="Control"]
 margin_right = 483.0
@@ -77,3 +78,12 @@ margin_bottom = 603.755
 rect_scale = Vector2( 0.81477, 0.600728 )
 icon = ExtResource( 3 )
 flat = true
+
+[node name="home" type="Button" parent="."]
+margin_right = 12.0
+margin_bottom = 20.0
+icon = ExtResource( 7 )
+flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
