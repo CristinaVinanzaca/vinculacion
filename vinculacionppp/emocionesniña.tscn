@@ -1,0 +1,116 @@
+[gd_scene load_steps=11 format=2]
+
+[ext_resource path="res://imagen/MenuSinFOndo/niñamochila.png" type="Texture" id=1]
+[ext_resource path="res://imagen/fondos/fonfo niña.jpg" type="Texture" id=2]
+[ext_resource path="res://imagen/MenuSinFOndo/nube.png" type="Texture" id=3]
+[ext_resource path="res://imagen/emociones/feliz.png" type="Texture" id=4]
+[ext_resource path="res://imagen/emociones/sombrada.png" type="Texture" id=5]
+[ext_resource path="res://imagen/emociones/furiosa.png" type="Texture" id=6]
+[ext_resource path="res://imagen/emociones/confundida.png" type="Texture" id=7]
+[ext_resource path="res://imagen/emociones/Sin título.png" type="Texture" id=8]
+[ext_resource path="res://emocionesniña.gd" type="Script" id=9]
+[ext_resource path="res://imagen/menu.png" type="Texture" id=10]
+
+[node name="Control" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 9 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 247.635, 342.879 )
+scale = Vector2( 1, 1.50846 )
+texture = ExtResource( 2 )
+
+[node name="niña" type="Sprite" parent="."]
+position = Vector2( 333.354, 182.551 )
+scale = Vector2( 0.604386, 0.500859 )
+texture = ExtResource( 1 )
+
+[node name="niñab" type="TextureButton" parent="niña"]
+margin_left = -127.0
+margin_top = -273.0
+margin_right = 151.0
+margin_bottom = 243.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Sprite3" type="Sprite" parent="."]
+position = Vector2( 147.628, 130.167 )
+scale = Vector2( 0.449477, 0.384114 )
+texture = ExtResource( 3 )
+
+[node name="Label" type="Label" parent="."]
+margin_left = 111.118
+margin_top = 66.6708
+margin_right = 211.118
+margin_bottom = 131.671
+text = "Hola...
+Cuentame, ¿como te sientes hoy?"
+autowrap = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="cofundido" type="Button" parent="."]
+margin_left = 6.65039
+margin_top = 326.923
+margin_right = 164.65
+margin_bottom = 478.923
+icon = ExtResource( 7 )
+flat = true
+expand_icon = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="feliz" type="Button" parent="."]
+margin_left = 155.175
+margin_top = 317.272
+margin_right = 334.175
+margin_bottom = 489.272
+icon = ExtResource( 4 )
+flat = true
+expand_icon = true
+
+[node name="enojado" type="Button" parent="."]
+margin_left = 314.699
+margin_top = 323.398
+margin_right = 497.699
+margin_bottom = 485.398
+icon = ExtResource( 6 )
+flat = true
+expand_icon = true
+
+[node name="triste" type="Button" parent="."]
+margin_left = 264.175
+margin_top = 504.224
+margin_right = 453.175
+margin_bottom = 704.224
+icon = ExtResource( 8 )
+flat = true
+expand_icon = true
+
+[node name="asombrado" type="Button" parent="."]
+margin_left = 70.5244
+margin_top = 501.272
+margin_right = 272.524
+margin_bottom = 681.272
+icon = ExtResource( 5 )
+flat = true
+expand_icon = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="audios" type="AudioStreamPlayer" parent="."]
+
+[node name="menu" type="Button" parent="."]
+margin_right = 171.0
+margin_bottom = 46.0
+icon = ExtResource( 10 )
+flat = true
+expand_icon = true

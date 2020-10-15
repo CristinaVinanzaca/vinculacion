@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/niñahola.ogg-b3f96d11af5a7e901cf549a539614d9b.oggstr"
+
+[deps]
+
+source_file="res://sound/emociones.ogg/niñahola.ogg"
+dest_files=[ "res://.import/niñahola.ogg-b3f96d11af5a7e901cf549a539614d9b.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

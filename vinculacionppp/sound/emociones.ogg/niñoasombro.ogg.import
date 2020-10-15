@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/niñoasombro.ogg-a37487d8f42a93a84a71ad0471bbe16f.oggstr"
+
+[deps]
+
+source_file="res://sound/emociones.ogg/niñoasombro.ogg"
+dest_files=[ "res://.import/niñoasombro.ogg-a37487d8f42a93a84a71ad0471bbe16f.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=2]
+[gd_scene load_steps=9 format=2]
 
 [ext_resource path="res://imagen/cuerposXD/niñoFrenteSF.png" type="Texture" id=1]
 [ext_resource path="res://imagen/WhatsApp_Image_2020-09-24_at_21.17.03-removebg-preview.png" type="Texture" id=2]
@@ -7,9 +7,11 @@
 [ext_resource path="res://escenas/Fondodeestrellas.tscn" type="PackedScene" id=5]
 [ext_resource path="res://Menudehombre.gd" type="Script" id=6]
 [ext_resource path="res://imagen/descarga.png" type="Texture" id=7]
+[ext_resource path="res://imagen/emociones/corazon.png" type="Texture" id=8]
 
 [node name="Menu" type="Control"]
-margin_right = 481.0
+margin_left = 2.51984
+margin_right = 483.52
 margin_bottom = 725.0
 script = ExtResource( 6 )
 __meta__ = {
@@ -24,10 +26,10 @@ __meta__ = {
 }
 
 [node name="cabeza" type="Button" parent="."]
-margin_left = 106.0
-margin_top = 424.0
-margin_right = 424.0
-margin_bottom = 819.0
+margin_left = 63.1627
+margin_top = 411.401
+margin_right = 381.163
+margin_bottom = 806.401
 rect_scale = Vector2( 0.246997, 0.225851 )
 icon = ExtResource( 3 )
 flat = true
@@ -36,10 +38,10 @@ __meta__ = {
 }
 
 [node name="OrganosHombres" type="Button" parent="cabeza"]
-margin_left = 793.574
-margin_top = 25.2522
-margin_right = 1073.57
-margin_bottom = 403.252
+margin_left = 569.132
+margin_top = 2.93799
+margin_right = 849.132
+margin_bottom = 380.938
 rect_scale = Vector2( 1.37019, 1.04772 )
 icon = ExtResource( 4 )
 flat = true
@@ -48,10 +50,10 @@ __meta__ = {
 }
 
 [node name="Esqueletohombre" type="Button" parent="cabeza/OrganosHombres"]
-margin_left = -71.2639
-margin_top = 377.56
-margin_right = 208.736
-margin_bottom = 766.56
+margin_left = 375.473
+margin_top = -112.291
+margin_right = 655.473
+margin_bottom = 276.709
 rect_scale = Vector2( 1.50998, 1.35555 )
 icon = ExtResource( 2 )
 flat = true
@@ -60,10 +62,10 @@ __meta__ = {
 }
 
 [node name="Button" type="Button" parent="."]
-margin_left = 96.4813
-margin_top = 536.559
-margin_right = 313.481
-margin_bottom = 1123.56
+margin_left = 139.319
+margin_top = 523.96
+margin_right = 356.319
+margin_bottom = 1110.96
 rect_scale = Vector2( 0.354781, 0.183079 )
 icon = ExtResource( 1 )
 flat = true
@@ -72,10 +74,10 @@ __meta__ = {
 }
 
 [node name="Button" type="Button" parent="Button"]
-margin_left = 79.6558
-margin_top = -2865.72
-margin_right = 296.656
-margin_bottom = -2278.72
+margin_left = -41.0876
+margin_top = -2755.61
+margin_right = 175.913
+margin_bottom = -2168.61
 rect_scale = Vector2( 3.29605, 3.65979 )
 icon = ExtResource( 1 )
 flat = true
@@ -88,3 +90,17 @@ margin_right = 82.0
 margin_bottom = 78.4801
 icon = ExtResource( 7 )
 flat = true
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 306.161, 580.824 )
+scale = Vector2( 0.336883, 0.276561 )
+texture = ExtResource( 8 )
+
+[node name="corazon" type="TextureButton" parent="Sprite"]
+margin_left = -165.0
+margin_top = -155.0
+margin_right = 175.0
+margin_bottom = 176.0
+__meta__ = {
+"_edit_use_anchors_": false
+}

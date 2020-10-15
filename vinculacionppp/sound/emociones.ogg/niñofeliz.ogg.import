@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/niñofeliz.ogg-48bcb16da4345fbbd65eeee99509d2ab.oggstr"
+
+[deps]
+
+source_file="res://sound/emociones.ogg/niñofeliz.ogg"
+dest_files=[ "res://.import/niñofeliz.ogg-48bcb16da4345fbbd65eeee99509d2ab.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/niñoconfundido.ogg-a93434ac964428bbeed4151026601fbf.oggstr"
+
+[deps]
+
+source_file="res://sound/emociones.ogg/niñoconfundido.ogg"
+dest_files=[ "res://.import/niñoconfundido.ogg-a93434ac964428bbeed4151026601fbf.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0
