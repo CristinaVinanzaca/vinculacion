@@ -9,3 +9,7 @@ func _on_Buttoninicionio_pressed():
 
 func _on_Buttoninicionia_pressed():
 	get_tree().change_scene("res://Menudeopciones.tscn")
+
+
+func _on_salir_pressed():
+	get_tree().quit()

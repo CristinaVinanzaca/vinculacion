@@ -14,13 +14,13 @@ func _ready():
 	cora.connect("pressed",self,"_emociones")
 
 func _on_Button_pressed():
-	get_tree().change_scene("res://escenas/niñoFrente.tscn")
+	get_tree().change_scene("res://escenas/ninoFrente.tscn")
 func _llamarCabeza():
-	get_tree().change_scene("res://escenas/niñoCabeza.tscn")
+	get_tree().change_scene("res://escenas/ninoCabeza.tscn")
 func _llamarHuesos():
-	get_tree().change_scene("res://escenas/niñohuesos.tscn")
+	get_tree().change_scene("res://escenas/ninohuesos.tscn")
 func _llamarOrganos():
-	get_tree().change_scene("res://escenas/niñoOrganos.tscn")
+	get_tree().change_scene("res://escenas/ninoOrganos.tscn")
 func _irhouse():
 	get_tree().change_scene("res://Menuinicio.tscn")
 func _emociones():

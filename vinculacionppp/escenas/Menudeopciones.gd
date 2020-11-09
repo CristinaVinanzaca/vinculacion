@@ -13,15 +13,15 @@ func _ready():
 	btn2.connect("pressed",self,"_irhouse")
 	cora.connect("pressed",self,"_emociones")
 func _llamarCabeza():
-	get_tree().change_scene("res://escenas/niñacabeza.tscn")
+	get_tree().change_scene("res://escenas/ninacabeza.tscn")
 func _llamarHuesos():
-	get_tree().change_scene("res://escenas/niñaHuesos.tscn")
+	get_tree().change_scene("res://escenas/ninaHuesos.tscn")
 func _llamarOrganos():
-	get_tree().change_scene("res://escenas/niñaOrganos.tscn")
+	get_tree().change_scene("res://escenas/ninaOrganos.tscn")
 func _irhouse():
 	get_tree().change_scene("res://Menuinicio.tscn")
 
 func _on_CuerpoEntero_pressed():
 	get_tree().change_scene("res://escenas/secundaria.tscn")
 func _emociones():
-	get_tree().change_scene("res://emocionesniña.tscn")
+	get_tree().change_scene("res://emocionesnina.tscn")

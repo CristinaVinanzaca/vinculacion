@@ -1,9 +1,10 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://Menuinicio.gd" type="Script" id=1]
 [ext_resource path="res://imagen/cuerposXD/niñaFrenteSF.png" type="Texture" id=2]
 [ext_resource path="res://imagen/cuerposXD/niñoFrenteSF.png" type="Texture" id=3]
 [ext_resource path="res://ParallaxBackground.tscn" type="PackedScene" id=4]
+[ext_resource path="res://imagen/salir.png" type="Texture" id=5]
 
 [sub_resource type="StyleBoxEmpty" id=1]
 
@@ -74,5 +75,15 @@ custom_colors/font_color = Color( 0.0156863, 0, 0, 1 )
 custom_colors/font_outline_modulate = Color( 0.0784314, 0.0196078, 0.0196078, 1 )
 text = "SELECCIONA UNO"
 align = 1
+
+[node name="salir" type="Button" parent="."]
+margin_left = 383.0
+margin_top = -6.45435
+margin_right = 462.0
+margin_bottom = 84.5457
+icon = ExtResource( 5 )
+flat = true
+expand_icon = true
 [connection signal="pressed" from="VBoxContainer/TextureButton/Buttoninicioniño" to="." method="_on_Buttoninicionio_pressed"]
 [connection signal="pressed" from="VBoxContainer/TextureButton/Buttoninicioniña" to="." method="_on_Buttoninicionia_pressed"]
+[connection signal="pressed" from="salir" to="." method="_on_salir_pressed"]

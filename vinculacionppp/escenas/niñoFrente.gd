@@ -90,7 +90,7 @@ func _pies():
 func _brazos():
 	_cargarAudio("brazo_hombre")
 func voltear():	
-	get_tree().change_scene("res://escenas/niñoEspalda.tscn")
+	get_tree().change_scene("res://escenas/ninoEspalda.tscn")
 
 
 
