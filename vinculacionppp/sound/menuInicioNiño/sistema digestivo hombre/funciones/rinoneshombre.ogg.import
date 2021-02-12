@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/rinoneshombre.ogg-855809e25147b2fb833e7d6fca073dc1.oggstr"
+
+[deps]
+
+source_file="res://sound/menuInicioNiño/sistema digestivo hombre/funciones/rinoneshombre.ogg"
+dest_files=[ "res://.import/rinoneshombre.ogg-855809e25147b2fb833e7d6fca073dc1.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

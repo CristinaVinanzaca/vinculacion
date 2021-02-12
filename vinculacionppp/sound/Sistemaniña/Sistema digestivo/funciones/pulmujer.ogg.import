@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/pulmujer.ogg-b9a2d5d23f9fa63fe4d74eaea922ee6c.oggstr"
+
+[deps]
+
+source_file="res://sound/Sistemaniña/Sistema digestivo/funciones/pulmujer.ogg"
+dest_files=[ "res://.import/pulmujer.ogg-b9a2d5d23f9fa63fe4d74eaea922ee6c.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

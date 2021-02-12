@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/cerebrohombre.ogg-c0611c617c2e5c214fe7e88795d69dc2.oggstr"
+
+[deps]
+
+source_file="res://sound/menuInicioNiño/sistema digestivo hombre/funciones/cerebrohombre.ogg"
+dest_files=[ "res://.import/cerebrohombre.ogg-c0611c617c2e5c214fe7e88795d69dc2.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

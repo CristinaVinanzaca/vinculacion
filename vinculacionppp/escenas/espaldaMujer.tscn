@@ -2,7 +2,7 @@
 
 [ext_resource path="res://Node2D.gd" type="Script" id=1]
 [ext_resource path="res://imagen/fondos/fonfo niña.jpg" type="Texture" id=2]
-[ext_resource path="res://imagen/cuerposXD/niñaAtrasSF.png" type="Texture" id=3]
+[ext_resource path="res://imagen/cuerposXD/des/niñaAtrasSF.png" type="Texture" id=3]
 [ext_resource path="res://imagen/flecha-color-e1454f.png" type="Texture" id=4]
 
 [node name="Node2D" type="Node2D"]

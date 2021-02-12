@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/oreja.ogg-45e45083b729fe1a6e7dfafde3553f8a.oggstr"
+
+[deps]
+
+source_file="res://sound/niño/oreja.ogg"
+dest_files=[ "res://.import/oreja.ogg-45e45083b729fe1a6e7dfafde3553f8a.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

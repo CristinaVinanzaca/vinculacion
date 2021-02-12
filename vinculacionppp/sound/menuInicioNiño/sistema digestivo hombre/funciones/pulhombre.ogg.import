@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/pulhombre.ogg-abf46f8a98ab6cb0e178a8c89169fc89.oggstr"
+
+[deps]
+
+source_file="res://sound/menuInicioNiño/sistema digestivo hombre/funciones/pulhombre.ogg"
+dest_files=[ "res://.import/pulhombre.ogg-abf46f8a98ab6cb0e178a8c89169fc89.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

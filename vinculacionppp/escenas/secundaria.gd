@@ -26,7 +26,9 @@ onready var brazo2=get_node("brazo2")
 
 func _ready():
 	voltear.connect("pressed",self,"voltear")
+
 	cabeza.connect("pressed",self,"_cabeza")
+	
 	ojos.connect("pressed",self,"_ojos")
 	nariz.connect("pressed",self,"_nariz")
 	boca.connect("pressed",self,"_boca")
@@ -57,6 +59,7 @@ func _cargarAudio(var nombre):
 		get_node("prueba").play()
 func _cabeza():
 	_cargarAudio("cabeza_mujer")
+	
 func _ojos():
 	_cargarAudio("ojos_mujer")
 func _nariz():
@@ -72,7 +75,7 @@ func _hombros():
 func _pecho():
 	_cargarAudio("pecho_mujer")
 func _mano():
-	_cargarAudio("mano_mujer")
+	_cargarAudio("mano")
 func _ombligo():
 	_cargarAudio("ombligo_mujer")
 func _abdomen():

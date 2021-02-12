@@ -2,7 +2,7 @@
 
 [ext_resource path="res://escenas/niñoEspalda.gd" type="Script" id=1]
 [ext_resource path="res://imagen/fondos/fondoniños.png" type="Texture" id=2]
-[ext_resource path="res://imagen/cuerposXD/niñoAtrasSF.png" type="Texture" id=3]
+[ext_resource path="res://imagen/cuerposXD/des/foto_de_niño_atras-removebg-preview.png" type="Texture" id=3]
 [ext_resource path="res://imagen/flecha-color-e1454f.png" type="Texture" id=4]
 
 [node name="Node2D" type="Node2D"]
@@ -10,7 +10,7 @@ position = Vector2( -3.84244, 18.8391 )
 script = ExtResource( 1 )
 
 [node name="fondo" type="Sprite" parent="."]
-position = Vector2( 250.601, 356.402 )
+position = Vector2( 248.081, 338.763 )
 scale = Vector2( 0.666414, 0.931638 )
 texture = ExtResource( 2 )
 

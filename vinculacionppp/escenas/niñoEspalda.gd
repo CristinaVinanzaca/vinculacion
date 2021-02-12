@@ -52,4 +52,4 @@ func _codos():
 	_cargarAudio("codo_hombre")
 	
 func voltear():	
-	get_tree().change_scene("res://escenas/niñoFrente.tscn") 
+	get_tree().change_scene("res://escenas/ninoFrente.tscn") 

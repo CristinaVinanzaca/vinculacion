@@ -2,7 +2,7 @@
 
 [ext_resource path="res://escenas/niñoFrente.gd" type="Script" id=1]
 [ext_resource path="res://imagen/fondos/fondoniños.png" type="Texture" id=2]
-[ext_resource path="res://imagen/cuerposXD/niñoFrenteSF.png" type="Texture" id=3]
+[ext_resource path="res://imagen/cuerposXD/des/foto_de_niño_frente-removebg-preview.png" type="Texture" id=3]
 [ext_resource path="res://imagen/menu.png" type="Texture" id=4]
 [ext_resource path="res://imagen/flecha-color-e1454f.png" type="Texture" id=5]
 
@@ -56,6 +56,9 @@ margin_left = 185.059
 margin_top = 116.168
 margin_right = 209.059
 margin_bottom = 152.168
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="oreja2" type="TextureButton" parent="."]
 margin_left = 292.416
@@ -113,6 +116,9 @@ margin_left = 184.0
 margin_top = 318.0
 margin_right = 309.0
 margin_bottom = 417.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="pIntimaH" type="TextureButton" parent="."]
 margin_left = 225.178

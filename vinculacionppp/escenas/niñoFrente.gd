@@ -62,7 +62,7 @@ func _nariz():
 func _boca():
 	_cargarAudio("boca_hombre")
 func _oreja():
-	_cargarAudio("oreja_hombre")
+	_cargarAudio("oreja")
 func _cuello():
 	_cargarAudio("cuello_hombre")
 func _hombros():

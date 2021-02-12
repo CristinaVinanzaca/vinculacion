@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/higadohombre.ogg-78158b740a0cd2956b74bf0296f47164.oggstr"
+
+[deps]
+
+source_file="res://sound/menuInicioNiño/sistema digestivo hombre/funciones/higadohombre.ogg"
+dest_files=[ "res://.import/higadohombre.ogg-78158b740a0cd2956b74bf0296f47164.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

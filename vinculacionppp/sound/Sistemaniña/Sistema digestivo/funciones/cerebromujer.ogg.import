@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/cerebromujer.ogg-aac746fa4c13c7f520f922a1a856a7ff.oggstr"
+
+[deps]
+
+source_file="res://sound/Sistemaniña/Sistema digestivo/funciones/cerebromujer.ogg"
+dest_files=[ "res://.import/cerebromujer.ogg-aac746fa4c13c7f520f922a1a856a7ff.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

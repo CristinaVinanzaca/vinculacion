@@ -68,12 +68,12 @@ __meta__ = {
 
 [node name="Label" type="Label" parent="HBoxContainer"]
 margin_top = 17.0
-margin_right = 114.0
+margin_right = 152.0
 margin_bottom = 31.0
 custom_styles/normal = SubResource( 1 )
 custom_colors/font_color = Color( 0.0156863, 0, 0, 1 )
 custom_colors/font_outline_modulate = Color( 0.0784314, 0.0196078, 0.0196078, 1 )
-text = "SELECCIONA UNO"
+text = "SELECCIONE EL GÉNERO"
 align = 1
 
 [node name="salir" type="Button" parent="."]

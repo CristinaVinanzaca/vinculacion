@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/igruesohombre.ogg-37e832c8fb29657d7e64c1786482cccb.oggstr"
+
+[deps]
+
+source_file="res://sound/menuInicioNiño/sistema digestivo hombre/funciones/igruesohombre.ogg"
+dest_files=[ "res://.import/igruesohombre.ogg-37e832c8fb29657d7e64c1786482cccb.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

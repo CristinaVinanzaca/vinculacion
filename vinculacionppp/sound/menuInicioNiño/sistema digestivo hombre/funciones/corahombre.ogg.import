@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/corahombre.ogg-d283adb8244d65516c395b5a996a55fd.oggstr"
+
+[deps]
+
+source_file="res://sound/menuInicioNiño/sistema digestivo hombre/funciones/corahombre.ogg"
+dest_files=[ "res://.import/corahombre.ogg-d283adb8244d65516c395b5a996a55fd.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

@@ -2,7 +2,7 @@
 
 [ext_resource path="res://escenas/secundaria.gd" type="Script" id=1]
 [ext_resource path="res://imagen/fondos/fonfo niña.jpg" type="Texture" id=2]
-[ext_resource path="res://imagen/cuerposXD/niñaFrenteSF.png" type="Texture" id=3]
+[ext_resource path="res://imagen/cuerposXD/des/niñaFrenteSF.png" type="Texture" id=3]
 [ext_resource path="res://imagen/flecha-color-e1454f.png" type="Texture" id=4]
 [ext_resource path="res://sound/mujer/ombligo_mujer.ogg" type="AudioStream" id=5]
 [ext_resource path="res://imagen/menu.png" type="Texture" id=6]
@@ -57,6 +57,9 @@ margin_left = 241.0
 margin_top = 171.0
 margin_right = 253.0
 margin_bottom = 184.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="boca" type="TextureButton" parent="."]
 margin_left = 231.0
@@ -99,6 +102,9 @@ margin_left = 122.818
 margin_top = 342.336
 margin_right = 162.818
 margin_bottom = 382.336
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="mano2" type="TextureButton" parent="."]
 margin_left = 331.286
@@ -111,6 +117,9 @@ margin_left = 221.0
 margin_top = 279.243
 margin_right = 273.0
 margin_bottom = 340.243
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="ombligo" type="TextureButton" parent="."]
 margin_left = 239.0
@@ -123,6 +132,9 @@ margin_left = 237.414
 margin_top = 351.071
 margin_right = 259.414
 margin_bottom = 373.071
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="piernas" type="TextureButton" parent="."]
 margin_left = 191.0
@@ -150,12 +162,18 @@ margin_left = 220.0
 margin_top = 541.071
 margin_right = 276.0
 margin_bottom = 568.071
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="pies" type="TextureButton" parent="."]
 margin_left = 213.0
 margin_top = 568.728
 margin_right = 283.0
 margin_bottom = 600.728
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="brazo1" type="TextureButton" parent="."]
 margin_left = 171.0

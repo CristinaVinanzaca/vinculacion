@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/rinonesmujer.ogg-5beddf07470d988dc62e5310ed5b7994.oggstr"
+
+[deps]
+
+source_file="res://sound/Sistemaniña/Sistema digestivo/funciones/rinonesmujer.ogg"
+dest_files=[ "res://.import/rinonesmujer.ogg-5beddf07470d988dc62e5310ed5b7994.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0
